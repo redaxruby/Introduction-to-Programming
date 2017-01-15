@@ -52,14 +52,3 @@ scream("Yippee")
 #What does the following error message tell you?
 #ArgumentError: wrong number of arguments (1 for 2)
 #program is expecting 2 arguments but only 1 given
-
-
-
-
-
-
-
-
-
-
-

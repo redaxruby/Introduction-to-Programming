@@ -1,3 +1,8 @@
+#require feedzilla.json
+#require slashdot.xml
+
+#Exercise
+
 require 'json'
 require 'nokogiri'
 require 'axlsx'
@@ -39,11 +44,6 @@ pkg.workbook.add_worksheet(:name => "Articles") do |sheet|
 end
 
 pkg.serialize("articles.xlsx")
-
-
-
-
-
 
 
 
